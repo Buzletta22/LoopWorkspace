@@ -214,7 +214,7 @@ jobs:
       - name: Customize Loop
         run: | 
 
-          # The lines below add the customizations listed using the CustomizationSelect script
+# The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
           #   the line following a "\" should not be blank
           /bin/bash -c "$(curl -fsSL \
@@ -223,7 +223,7 @@ jobs:
           low_carb_limit \
           high_carb_limit \
           override_sens \
-          now_line 
+          now_line \
           lnl_icon \
           watch_title \
           2hlollipop \
